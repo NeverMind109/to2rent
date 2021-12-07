@@ -1,0 +1,24 @@
+.best {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    text-align: right;
+    &__title {
+        font-family: 'PT Serif', serif;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 48px;       
+        color: #FFFFFF;
+        max-width: 492px;
+        padding: 68px 0 15px;
+        margin-left: auto;
+    }
+    &__link {
+        display: inline-block;
+        font-weight: normal;
+        color: #FFFFFF;
+        padding: 16px 18px;
+        background-color: #020202;
+    }
+}

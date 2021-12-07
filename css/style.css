@@ -176,6 +176,7 @@ a {
     -o-object-fit: cover;
        object-fit: cover; }
   .popular__link {
+    display: inline-block;
     background-color: #C4C4C4;
     border: 2px solid #C4C4C4;
     color: #FFFFFF;
@@ -227,5 +228,27 @@ a {
   .reason__icon {
     fill: #000;
     margin-right: 6px; }
+
+.best {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  text-align: right; }
+  .best__title {
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+    max-width: 492px;
+    padding: 68px 0 15px;
+    margin-left: auto; }
+  .best__link {
+    display: inline-block;
+    font-weight: normal;
+    color: #FFFFFF;
+    padding: 16px 18px;
+    background-color: #020202; }
 
 /*# sourceMappingURL=style.css.map */
