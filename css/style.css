@@ -47,4 +47,25 @@ a {
   .header__logo {
     padding: 88px 0 60px; }
 
+.slider__item {
+  min-height: 800px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; }
+
+.slick-arrow {
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer; }
+.slick-next {
+  right: 20px; }
+.slick-prev {
+  left: 20px; }
+
 /*# sourceMappingURL=style.css.map */

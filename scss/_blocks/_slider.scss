@@ -1,0 +1,26 @@
+.slider {
+    &__item {
+        min-height: 800px;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+    }
+}
+.slick{
+    &-arrow {
+        position: absolute;
+        z-index: 5;
+        top: 50%;
+        transform: translateY(-50%);
+        border: none;
+        outline: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    &-next {
+        right: 20px;
+    }
+    &-prev {
+        left: 20px;
+    }
+}
