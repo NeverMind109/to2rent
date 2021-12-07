@@ -1,0 +1,39 @@
+.popular {
+    text-align: center;
+    &__title {
+        background-color: #000000;
+        color: #fff;
+        font-family: 'PT Serif', serif;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 64px;
+        padding: 18px 15px;
+        text-align: center;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 0;
+    }
+    &__item {
+        &-title {
+            padding: 30px 10px;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #888888;
+        }
+    }
+    &__image {
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    &__link {
+        background-color: #C4C4C4;
+        border: 2px solid #C4C4C4;
+        color: #FFFFFF;
+        padding: 13px 46px;
+    }
+}

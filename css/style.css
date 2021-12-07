@@ -5,13 +5,18 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
   font-style: normal;
-  font-size: 18px;
   font-weight: 400;
+  font-size: 18px;
   line-height: 24px;
   color: #000; }
 
 a {
   text-decoration: none; }
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto; }
 
 .menu {
   border-top: 2px solid #C4C4C4; }
@@ -138,5 +143,42 @@ a {
       top: 23px;
       left: 9px;
       background: url("../images/search-icon.svg") no-repeat; }
+
+.popular {
+  text-align: center; }
+  .popular__title {
+    background-color: #000000;
+    color: #fff;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    padding: 18px 15px;
+    text-align: center; }
+  .popular__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 100px 0; }
+  .popular__item-title {
+    padding: 30px 10px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #888888; }
+  .popular__image {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .popular__link {
+    background-color: #C4C4C4;
+    border: 2px solid #C4C4C4;
+    color: #FFFFFF;
+    padding: 13px 46px; }
 
 /*# sourceMappingURL=style.css.map */
