@@ -20,7 +20,7 @@
             color: #888888;
             font-size: 18px;
             line-height: 24px;
-            ::placeholder {
+            &::placeholder {
                 font-family: 'Roboto Condensed', sans-serif;
                 font-style: normal;
                 font-weight: normal;
@@ -30,13 +30,14 @@
             }
         }
         &-btn {
+            height: 70px;
             position: relative;
             background: #C4C4C4;
             border: 2px solid #C4C4C4;
             font-size: 24px;
             line-height: 24px;
             color: #FFFFFF;
-            padding: 21px 24px 21px 36px;
+            padding: 0 24px 0 36px;
             cursor: pointer;
             &::before {
                 content: '';

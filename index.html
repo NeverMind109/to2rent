@@ -44,8 +44,8 @@
     <section class="search">
       <div class="search-inner">
         <form class="search__form" action="#">
-          <label class="search__form-label" for="#find">Поиск<br> Апартаментов</label>
-          <input class="search__form-input" type="search" placeholder="Введите город">
+          <label class="search__form-label" for="search">Поиск<br> Апартаментов</label>
+          <input class="search__form-input" type="search" placeholder="Введите город" id="search">
           <button class="search__form-btn" type="submit" id="find">Найти</button>
         </form>
       </div>
@@ -199,6 +199,43 @@
         </div>
       </div>
     </section>
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="container">
+          <div class="footer__top-inner">
+            <nav class="footer__menu">
+              <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">О нас</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Дома</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Апартаменты</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Отзывы</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <form class="footer__form" action="#">
+              <label class="footer__form-label" for="question">Связаться<br> с нами</label>
+              <input class="footer__form-input" type="text" id="question" placeholder="Задать вопрос">
+              <button class="footer__form-btn" type="submit">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="logo footer__logo">
+        <a class="logo__link" href="index.html">
+          <img class="logo__link-img" src="images/logo.svg" alt="Logo" width="392px" height="152px"/>
+        </a>
+      </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
